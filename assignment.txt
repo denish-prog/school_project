@@ -1,0 +1,16 @@
+let students = [
+	{
+		name: 'Yaka',
+		scores: [60,70,47,90]
+	},
+	{
+		name: 'Sabino',
+		scores: [65,70,87,60]
+	}
+]
+
+// loop through the students array
+// console.log D1 if score is greater or equal to 80
+// console.log fair for any score less than 80
+
+// do .. while loop
