@@ -52,17 +52,17 @@ let students = [
 
 // do .. while loop
 
-// for (let i = 0; i <students.length ; i++) {
-// 	console.log(students[i].name)
-// 	for (let p= 0; p <students[i].scores.length; p++) {
-// 		// console.log(students[i].scores)
-// 		if (students[i].scores[p] >= 80) {
-// 			console.log('D1');
-// 		} else {
-// 			console.log('fair');
-// 		}
-// 	}
-// }
+for (let i = 0; i <students.length ; i++) {
+	console.log(students[i].name)
+	for (let p= 0; p <students[i].scores.length; p++) {
+		// console.log(students[i].scores)
+		if (students[i].scores[p] >= 80) {
+			console.log('D1');
+		} else {
+			console.log('fair');
+		}
+	}
+}
 
 
 
